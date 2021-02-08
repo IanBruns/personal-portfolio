@@ -1,5 +1,10 @@
+import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header'
+import AboutPage from './routes/AboutPage/AboutPage';
+import ContactPage from './routes/ContactPage/ContactPage';
+import HomePage from './routes/HomePage/HomePage'
+import ProjectPage from './routes/ProjectPage/ProjectPage';
 
 function App() {
   return (
@@ -14,7 +19,20 @@ function App() {
         </div>
 
         <div className='flex-four'>
-          Flex 4
+          <Switch>
+            <Route exact path='/'
+              component={HomePage}
+            />
+            <Route path='/about'
+              component={AboutPage}
+            />
+            <Route path='/projects'
+              component={ProjectPage}
+            />
+            <Route path='/contact'
+              component={ContactPage}
+            />
+          </Switch>
         </div>
       </main>
 
