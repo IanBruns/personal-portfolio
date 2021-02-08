@@ -1,4 +1,4 @@
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header'
 import AboutPage from './routes/AboutPage/AboutPage';
@@ -8,6 +8,21 @@ import NotFoundPage from './routes/NotFoundPage/NotFoundPage';
 import ProjectPage from './routes/ProjectPage/ProjectPage';
 
 function App() {
+  const menuButtons = ['Home', 'About', 'Projects', 'Contact'].map((field, i) => {
+    let linkTitle;
+    field === 'Home'
+      ? linkTitle = ''
+      : linkTitle = field
+
+    return (
+      <div key={i}>
+        <Link to={`/${linkTitle}`}>
+          <button>{`${field}`}</button>
+        </Link>
+      </div>
+    )
+  })
+
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +31,7 @@ function App() {
 
       <main>
         <div className='flex-one'>
-          Flex 1
+          {menuButtons}
         </div>
 
         <div className='flex-four'>
@@ -24,13 +39,13 @@ function App() {
             <Route exact path='/'
               component={HomePage}
             />
-            <Route path='/about'
+            <Route path='/About'
               component={AboutPage}
             />
-            <Route path='/projects'
+            <Route path='/Projects'
               component={ProjectPage}
             />
-            <Route path='/contact'
+            <Route path='/Contact'
               component={ContactPage}
             />
             <Route
