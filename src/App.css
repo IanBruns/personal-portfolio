@@ -1,2 +1,14 @@
+main {
+  display: flex;
+}
+
+.flex-one {
+  flex: 1;
+}
+
+.flex-four {
+  flex: 4;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 }

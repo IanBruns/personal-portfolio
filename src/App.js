@@ -7,8 +7,20 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <body>
-      </body>
+
+      <main>
+        <div className='flex-one'>
+          Flex 1
+        </div>
+
+        <div className='flex-four'>
+          Flex 4
+        </div>
+      </main>
+
+      <footer>
+        <p>Footer</p>
+      </footer>
     </div>
   );
 }
