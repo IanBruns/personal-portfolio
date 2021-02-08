@@ -4,6 +4,7 @@ import Header from './components/Header'
 import AboutPage from './routes/AboutPage/AboutPage';
 import ContactPage from './routes/ContactPage/ContactPage';
 import HomePage from './routes/HomePage/HomePage'
+import NotFoundPage from './routes/NotFoundPage/NotFoundPage';
 import ProjectPage from './routes/ProjectPage/ProjectPage';
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
             />
             <Route path='/contact'
               component={ContactPage}
+            />
+            <Route
+              component={NotFoundPage}
             />
           </Switch>
         </div>
