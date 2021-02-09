@@ -1,5 +1,9 @@
 import React from 'react'
 
 export default function HomePage(props) {
-    return <p>HomePage!</p>
+    return (
+        <div className='HomePage'>
+            <h2>Hello, my name is Ian!</h2>
+        </div>
+    )
 }

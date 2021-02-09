@@ -1,4 +1,8 @@
-header, footer {
+body {
+  background-color: darkgray;
+}
+
+header, footer, h2 {
   text-align: center;
 }
 
@@ -6,12 +10,35 @@ main {
   display: flex;
 }
 
-.flex-one {
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+button {
+  border-radius: 50%;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.button:hover {background-color: #3e8e41}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.sidebar {
   flex: 1;
 }
 
-.flex-four {
-  flex: 4;
+.content {
+  flex: 5;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -17,7 +17,7 @@ function App() {
     return (
       <div key={i}>
         <Link to={`/${linkTitle}`}>
-          <button>{`${field}`}</button>
+          <button className='button'>{`${field}`}</button>
         </Link>
       </div>
     )
@@ -25,16 +25,16 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header>
         <Header />
       </header>
 
       <main>
-        <div className='flex-one'>
+        <div className='sidebar'>
           {menuButtons}
         </div>
 
-        <div className='flex-four'>
+        <div className='content'>
           <Switch>
             <Route exact path='/'
               component={HomePage}
