@@ -30,10 +30,6 @@ function App() {
       </header>
 
       <main>
-        <div className='sidebar'>
-          {menuButtons}
-        </div>
-
         <div className='content'>
           <Switch>
             <Route exact path='/'

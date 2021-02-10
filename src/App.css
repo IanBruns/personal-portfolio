@@ -6,10 +6,6 @@ header, footer, h2 {
   text-align: center;
 }
 
-main {
-  display: flex;
-}
-
 footer {
   position: fixed;
   bottom: 0;
@@ -31,14 +27,6 @@ button {
 .App {
   position: relative;
   min-height: 100vh;
-}
-
-.sidebar {
-  flex: 1;
-}
-
-.content {
-  flex: 5;
 }
 
 @media (prefers-reduced-motion: no-preference) {
