@@ -1,5 +1,4 @@
 import { Switch, Route, Link } from 'react-router-dom';
-import { push as Menu } from 'react-burger-menu'
 import './App.css';
 import Header from './components/Header'
 import AboutPage from './routes/AboutPage/AboutPage';
@@ -12,12 +11,6 @@ function App() {
   return (
     <div className="App" id="outer-container">
       <header>
-        <Menu pageWrapId={"page-wrap"}>
-          <Link className="menu-item" to="/">Home</Link>
-          <Link className="menu-item" to="/About">About</Link>
-          <Link className="menu-item" to="/Projects">Projects</Link>
-          <Link className="menu-item" to="/Contact">Contact</Link>
-        </Menu>
         <Header />
       </header>
 
