@@ -1,4 +1,5 @@
 import { Switch, Route, Link } from 'react-router-dom';
+import { push as Menu } from 'react-burger-menu'
 import './App.css';
 import Header from './components/Header'
 import AboutPage from './routes/AboutPage/AboutPage';
@@ -8,28 +9,19 @@ import NotFoundPage from './routes/NotFoundPage/NotFoundPage';
 import ProjectPage from './routes/ProjectPage/ProjectPage';
 
 function App() {
-  const menuButtons = ['Home', 'About', 'Projects', 'Contact'].map((field, i) => {
-    let linkTitle;
-    field === 'Home'
-      ? linkTitle = ''
-      : linkTitle = field
-
-    return (
-      <div key={i}>
-        <Link to={`/${linkTitle}`}>
-          <button className='button'>{`${field}`}</button>
-        </Link>
-      </div>
-    )
-  })
-
   return (
-    <div className="App">
+    <div className="App" id="outer-container">
       <header>
+        <Menu pageWrapId={"page-wrap"}>
+          <Link className="menu-item" to="/">Home</Link>
+          <Link className="menu-item" to="/About">About</Link>
+          <Link className="menu-item" to="/Projects">Projects</Link>
+          <Link className="menu-item" to="/Contact">Contact</Link>
+        </Menu>
         <Header />
       </header>
 
-      <main>
+      <main id="page-wrap">
         <div className='content'>
           <Switch>
             <Route exact path='/'
