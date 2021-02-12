@@ -4,6 +4,16 @@ import HomeIan from '../../images/HomeIan.jpg'
 import './HomePage.css'
 
 export default function HomePage(props) {
+    let directory = ['About', 'Projects', 'Contact'].map((field, i) => {
+        return (
+            <div className={`home-${field}`} key={i}>
+                <Link to={`/${field}`}>
+                    {`${field}`}
+                </Link>
+            </div>
+        )
+    })
+
     return (
         <div className='HomePage'>
             <h2>Hello, my name is Ian!</h2>
@@ -11,21 +21,7 @@ export default function HomePage(props) {
                 <div className="home-photo">
                     <img src={HomeIan} alt='' height='500px' />
                 </div>
-                <div className="home-about">
-                    <Link to='/About'>
-                        About
-                    </Link>
-                </div>
-                <div className="home-projects">
-                    <Link to='/Projects'>
-                        Projects
-                    </Link>
-                </div>
-                <div className="home-contact">
-                    <Link to='/Contact'>
-                        Contact
-                    </Link>
-                </div>
+                {directory}
             </div>
         </div>
     )
