@@ -4,7 +4,7 @@ export default function AboutPage(props) {
     return (
         <>
             <h2>Hi! I'm Ian, nice to meet you!</h2>
-            <div class="item">
+            <div className="item">
                 <p>
                     Hello! My name is Ian Bruns, and I am a student developer currently living in Denver, CO.
                 </p>
