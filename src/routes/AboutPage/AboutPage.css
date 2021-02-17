@@ -1,0 +1,44 @@
+.about-about { grid-area: about-about }
+.about-skills { grid-area: about-skills }
+.about-icons { grid-area: about-icons }
+.about-facts { grid-area: about-facts }
+.item5 { grid-area: item5 }
+.item6 { grid-area: item6 }
+
+.about-container {
+    display: grid;
+    grid-template-areas: 
+        'about-about about-about' 
+        'about-skills about-icons'
+        'about-facts item5';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.about-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.AboutPage p, .AboutPage li {
+    font-size: 20px;
+}
+
+.list{
+    display: flex;
+}
+
+@media all and (min-width: 800px) {
+    .about-container{
+        grid-template-areas: 
+        'about-about about-about' 
+        'about-skills about-icons'
+        'about-facts item5';
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

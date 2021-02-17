@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import HomeIan from '../../images/HomeIan.jpg'
+import HomeIan from '../../images/self/HomeIan.jpg'
 import './HomePage.css'
 
 export default function HomePage(props) {
