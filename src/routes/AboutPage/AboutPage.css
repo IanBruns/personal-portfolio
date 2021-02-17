@@ -2,15 +2,14 @@
 .about-skills { grid-area: about-skills }
 .about-icons { grid-area: about-icons }
 .about-facts { grid-area: about-facts }
-.item5 { grid-area: item5 }
-.item6 { grid-area: item6 }
+.about-cont { grid-area: about-cont }
 
 .about-container {
     display: grid;
     grid-template-areas: 
         'about-about about-about' 
         'about-skills about-icons'
-        'about-facts item5';
+        'about-facts about-cont';
     grid-gap: 10px;
     background-color: #2196F3;
     padding: 10px;
@@ -37,7 +36,7 @@
         grid-template-areas: 
         'about-about about-about' 
         'about-skills about-icons'
-        'about-facts item5';
+        'about-facts about-cont';
         margin-left: 5%;
         margin-right: 5%;
     }

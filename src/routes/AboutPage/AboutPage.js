@@ -54,14 +54,16 @@ export default function AboutPage(props) {
                 <div className='about-facts'>
                     <p>
                         When I'm not programming, you can usually see me listening to/making music
-                        (I'm up to like 4 or 5 instruments now)
+                        (I'm up to like 4 or 5 instruments now), writing comedy - I wrote for a
+                        sports YouTube channel in college, or playing dutch blitz
                     </p>
+                </div>
+                <div className='about-cont'>
                     <p>
                         Also thanks to my last job, I have been honing a skill at ping pong (the great
                         game)
                     </p>
                 </div>
-                <div className='item5'>Fun facts</div>
             </div>
         </div>
     )
