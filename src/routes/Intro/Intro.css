@@ -5,3 +5,14 @@
 .Intro img {
     border-radius: 15px;
 }
+
+.Intop p{
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: linearwipe 6s steps(60, end); 
+}
+
+@keyframes linearwipe{ 
+  from { width: 0; } 
+}  
