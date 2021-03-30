@@ -1,14 +1,15 @@
+import React from 'react';
 import './App.css';
 import Header from './components/Header'
 
 function App() {
   return (
-    <div className="App" id="outer-container">
+    <div className="App">
       <header>
         <Header />
       </header>
 
-      <main id="page-wrap">
+      <main>
       </main>
 
       <footer>
