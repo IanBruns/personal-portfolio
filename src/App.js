@@ -1,6 +1,7 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import './App.css';
-import Header from './components/Header'
+import Header from './components/Header';
 
 function App() {
   return (
