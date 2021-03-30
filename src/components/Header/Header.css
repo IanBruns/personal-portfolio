@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cyan;
+    border-bottom: 1px solid black;
+}
+
+.header-contact {
+    margin-top: 15px;
+}
+
+header img {
+    margin-right: 20px;
+}
