@@ -1,10 +1,8 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
 import './App.css';
 import Header from '../Header/Header';
 
 function App() {
-  const isDesktop = useMediaQuery({ minDeviceWidth: 800 })
 
   return (
     <div className="App">
@@ -13,12 +11,7 @@ function App() {
       </header>
 
       <main>
-        {isDesktop && (
-          <p>Desktop</p>
-        )}
-        {!isDesktop && (
-          <p>mobile</p>
-        )}
+        <p>main</p>
       </main>
 
       <footer>
