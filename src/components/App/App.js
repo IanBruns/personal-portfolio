@@ -16,11 +16,21 @@ function App() {
       </header>
 
       <main>
-        <Intro />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+        <section>
+          <Intro />
+        </section>
+        <section>
+          <About />
+        </section>
+        <section>
+          <Skills />
+        </section>
+        <section>
+          <Projects />
+        </section>
+        <section>
+          <Contact />
+        </section>
       </main>
 
       <footer>
