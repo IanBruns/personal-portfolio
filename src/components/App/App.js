@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Intro from '../../routes/Intro/Intro';
 import About from '../../routes/About/About';
 import Skills from '../../routes/Skills/Skills';
+import Projects from '../../routes/Projects/Projects';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Intro />
         <About />
         <Skills />
+        <Projects />
       </main>
 
       <footer>
