@@ -3,6 +3,7 @@ import './App.css';
 import Header from '../Header/Header';
 import Intro from '../../routes/Intro/Intro';
 import About from '../../routes/About/About';
+import Skills from '../../routes/Skills/Skills';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <main>
         <Intro />
         <About />
+        <Skills />
       </main>
 
       <footer>
