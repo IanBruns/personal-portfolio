@@ -5,6 +5,7 @@ import Intro from '../../routes/Intro/Intro';
 import About from '../../routes/About/About';
 import Skills from '../../routes/Skills/Skills';
 import Projects from '../../routes/Projects/Projects';
+import Contact from '../../routes/Contact/Contact';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Skills />
         <Projects />
+        <Contact />
       </main>
 
       <footer>
