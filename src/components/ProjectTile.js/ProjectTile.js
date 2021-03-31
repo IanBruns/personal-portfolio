@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectIcon from '../ProjectIcon/ProjectIcon';
+import StackIcon from '../StackIcon/StackIcon';
 
 export default function ProjectTile(props) {
     return (
@@ -9,7 +10,7 @@ export default function ProjectTile(props) {
                 <h3>{props.project.name}</h3>
             </div>
             <p>{props.project.description}</p>
-            <p>{props.project.stack}</p>
+            <StackIcon str={props.project.stack} />
             <p>{props.project.achieved}</p>
             <div className='tile-buttons'>
                 <a href={props.project.liveLink}>
