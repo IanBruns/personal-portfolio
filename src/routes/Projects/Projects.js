@@ -1,9 +1,10 @@
 import React from 'react';
+import ProjectTile from '../../components/ProjectTile.js/ProjectTile';
 import PROJECTS from '../../projectStore'
 
 export default function Projects(props) {
     const breakoutProjects = PROJECTS.map(proj => {
-        return (<p>Project</p>)
+        return <ProjectTile key={proj.id} project={proj} />
     })
 
     return (
