@@ -1,4 +1,5 @@
 import React from 'react';
+import SkillIcons from '../../components/SkillIcons/SkillIcons';
 import './Skills.css';
 
 export default function Skills(props) {
@@ -24,6 +25,9 @@ export default function Skills(props) {
                         <li>Mocha/Chai/Supertest</li>
                     </ul>
                 </div>
+            </div>
+            <div className='icons'>
+                <SkillIcons />
             </div>
         </div>
     )

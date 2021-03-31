@@ -2,7 +2,7 @@ body {
   background-color: darkgray;
 }
 
-header, footer, h2, h3, h4{
+header, footer, h2, h3, h4, .icons{
   text-align: center;
 }
 
