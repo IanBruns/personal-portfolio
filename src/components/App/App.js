@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header';
 import Intro from '../../routes/Intro/Intro';
+import About from '../../routes/About/About';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
       <main>
         <Intro />
+        <About />
       </main>
 
       <footer>

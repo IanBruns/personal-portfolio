@@ -2,17 +2,6 @@
     text-align: center;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    margin: 5% 10% 5% 10%;
-}
-
-.right {
-    margin-left: 10px;
-    padding: 10px;
-}
-
 .Intro img {
     border-radius: 15px;
 }
