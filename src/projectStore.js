@@ -27,7 +27,7 @@ const PROJECTS = [
         name: 'Survive Oktoberfest',
         description: 'If you ever plan on going to Oktoberfest in Germany, you are going to have to know a few terms.  Through a spaced repetition learning technique, you can get through the beer holiday with ease',
         stack: 'React, Node/Express, Postgres/Knex',
-        achieved: 'Learned to read and utilize code written by someone else, the Linked List data structure,',
+        achieved: 'Learned to read and utilize code written by someone else and implimentation of the Linked List data structure',
         liveLink: 'https://spaced-repetition-alpha.vercel.app',
         repoClient: 'https://github.com/IanBruns/spaced-repetition-client',
         repoServer: 'https://github.com/IanBruns/spaced-repetition-server',

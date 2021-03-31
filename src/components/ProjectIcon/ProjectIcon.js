@@ -1,4 +1,5 @@
 import React from 'react';
+import './ProjectIcon.css'
 import routine from '../../images/projectimg/icon/RightRouteIcon.png';
 import oktober from '../../images/projectimg/icon/SurviveOktoberfestIcon.png';
 import play from '../../images/projectimg/icon/PlayPacketIcon.png';
@@ -12,6 +13,6 @@ export default function ProjectIcon(props) {
                 : icon = null;
 
     return (
-        <img src={icon} alt='' height='25px' />
+        <img className='projIcon' src={icon} alt='' height='25px' />
     )
 }
