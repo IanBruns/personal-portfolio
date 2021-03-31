@@ -1,9 +1,13 @@
 import React from 'react';
+import ProjectIcon from '../ProjectIcon/ProjectIcon';
 
 export default function ProjectTile(props) {
     return (
         <div className='tile'>
-            <h3>{props.project.name}</h3>
+            <div className='container'>
+                <ProjectIcon projId={props.project.id} />
+                <h3>{props.project.name}</h3>
+            </div>
             <p>{props.project.description}</p>
             <p>{props.project.stack}</p>
             <p>{props.project.achieved}</p>
