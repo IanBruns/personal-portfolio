@@ -5,7 +5,6 @@ import node from '../../images/icons/skills/node.png';
 import postgresql from '../../images/icons/skills/postgresql.png';
 
 export default function StackIcon(props) {
-    console.log(props.str)
     return (
         <React.Fragment>
             {props.str.toLowerCase().includes('react') && (

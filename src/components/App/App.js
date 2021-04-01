@@ -32,10 +32,6 @@ function App() {
           <Contact />
         </section>
       </main>
-
-      <footer>
-        <p>Footer</p>
-      </footer>
     </div>
   );
 }
