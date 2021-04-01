@@ -3,6 +3,7 @@ header {
     justify-content: space-evenly;
     background-color: #8EF4D9;
     border-bottom: 1px solid black;
+    width: 100%;
 }
 
 .header-contact {

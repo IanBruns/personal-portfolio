@@ -1,10 +1,12 @@
 import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 import './ProjectTile.css'
 import ProjectIcon from '../ProjectIcon/ProjectIcon';
 import StackIcon from '../StackIcon/StackIcon';
 import ProjectScreenshot from '../ProjectScreenshot/ProjectScreenshot';
 
 export default function ProjectTile(props) {
+    const smallScreen = useMediaQuery({ maxWidth: 400 })
     return (
         <div className='tile'>
             <div className='container'>
@@ -26,7 +28,7 @@ export default function ProjectTile(props) {
                         <StackIcon str={props.project.stack} />
                     </div>
                     <div className='screen'>
-                        <ProjectScreenshot projId={props.project.id} />
+                        <ProjectScreenshot projId={props.project.id} smallScreen={smallScreen} />
                     </div>
                 </div>
             </div>

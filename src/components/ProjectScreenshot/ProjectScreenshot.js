@@ -12,7 +12,12 @@ export default function ProjectScreenshot(props) {
             : (props.projId === 3) ? screenshot = play
                 : screenshot = null;
 
+    let size;
+    props.smallScreen === true
+        ? size = '200'
+        : size = '400'
+
     return (
-        <img className='projImg' src={screenshot} alt='' height='400' width='400' />
+        <img className='projImg' src={screenshot} alt='' height={size} width={size} />
     )
 }

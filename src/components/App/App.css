@@ -17,6 +17,7 @@ header, footer, h2, h3, h4, .icons{
 .App {
   position: relative;
   min-height: 100vh;
+  width: 100%;
 }
 
 main {
