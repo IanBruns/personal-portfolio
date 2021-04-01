@@ -1,0 +1,16 @@
+.tile .right {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: center;
+}
+
+.proj {
+    flex-direction: column;
+}
+
+@media all and (min-width: 800px) {
+    .proj {
+        flex-direction: row;
+    }
+}
