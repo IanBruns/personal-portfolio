@@ -1,22 +1,24 @@
 .tile .right {
     display: flex;
-    flex-direction: row;
     padding: 10px;
     justify-content: center;
 }
 
-.stack {
+.stack, .screen {
     margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
 }
 
-.proj {
+.proj, .tile .right {
     flex-direction: column;
+    justify-content: center;
 }
 
 .tile-buttons {
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 .tile-buttons a {
@@ -48,13 +50,6 @@
     transition: all 0.4s;
 }
 
-
-@media all and (min-width: 800px) {
-    .proj {
-        flex-direction: row;
-    }
-}
-
 @media all and (min-width: 800px) and (max-width: 1100px) {
     .tile-buttons {
         flex-direction: column;
@@ -62,5 +57,14 @@
     }
     .tile-buttons a {
         margin-bottom: 15px;
+    }
+}
+
+@media all and (min-width: 800px) {
+    .proj, .tile .right {
+        flex-direction: row;
+    }
+    .stack {
+        flex-direction: column;
     }
 }
