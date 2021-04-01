@@ -44,3 +44,9 @@
 .back a:visited { color: white;   }
 .back a:hover   { color: #9882AC; }
 .back a:active  { color: #0C0910;  }
+
+@media all and (max-width: 450px) {
+  .back {
+    margin-left: 5%;
+  }
+}

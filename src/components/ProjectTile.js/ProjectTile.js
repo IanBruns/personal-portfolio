@@ -6,7 +6,7 @@ import StackIcon from '../StackIcon/StackIcon';
 import ProjectScreenshot from '../ProjectScreenshot/ProjectScreenshot';
 
 export default function ProjectTile(props) {
-    const smallScreen = useMediaQuery({ maxWidth: 400 })
+    const smallScreen = useMediaQuery({ maxWidth: 450 })
     return (
         <div className='tile'>
             <div className='container'>
