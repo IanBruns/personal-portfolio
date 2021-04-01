@@ -28,7 +28,7 @@ export default function ProjectTile(props) {
                     </div>
                 </div>
                 <div className='right'>
-                    <div>
+                    <div className='stack'>
                         <StackIcon str={props.project.stack} />
                     </div>
                     <ProjectScreenshot projId={props.project.id} />

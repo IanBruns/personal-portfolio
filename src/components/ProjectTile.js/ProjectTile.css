@@ -5,6 +5,10 @@
     justify-content: center;
 }
 
+.stack {
+    margin-right: 10px;
+}
+
 .proj {
     flex-direction: column;
 }
