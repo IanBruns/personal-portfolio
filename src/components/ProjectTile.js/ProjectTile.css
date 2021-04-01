@@ -16,6 +16,7 @@
 .tile-buttons {
     display: flex;
     justify-content: space-evenly;
+    
 }
 
 .tile-buttons a {
@@ -50,5 +51,15 @@
 @media all and (min-width: 800px) {
     .proj {
         flex-direction: row;
+    }
+}
+
+@media all and (min-width: 800px) and (max-width: 1100px) {
+    .tile-buttons {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tile-buttons a {
+        margin-bottom: 15px;
     }
 }
