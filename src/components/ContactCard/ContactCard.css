@@ -5,6 +5,10 @@
   perspective: 1000px;
 }
 
+.ContactCard h3, .ContactCard h4 {
+  font-family: 'Train One', cursive;
+}
+
 .inner {
     position: relative;
     background-color: black;
