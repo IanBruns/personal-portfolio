@@ -9,7 +9,7 @@ export default function Projects(props) {
 
     return (
         <div className='Projects'>
-            <h2>Projects!!</h2>
+            <h2>My Projects</h2>
             {breakoutProjects}
         </div>
     )
