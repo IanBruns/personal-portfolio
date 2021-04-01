@@ -16,9 +16,9 @@ export default function ProjectTile(props) {
                     <p>{props.project.description}</p>
                     <p>Achieved: {props.project.achieved}</p>
                     <div className='tile-buttons'>
-                        <a href={props.project.liveLink}>Application</a>
-                        <a href={props.project.repoClient}>Client Repository</a>
-                        <a href={props.project.repoServer}>Server Repository</a>
+                        <a href={props.project.liveLink} target="_blank" rel='noreferrer'>Application</a>
+                        <a href={props.project.repoClient} target="_blank" rel='noreferrer'>Client Repository</a>
+                        <a href={props.project.repoServer} target="_blank" rel='noreferrer'>Server Repository</a>
                     </div>
                 </div>
                 <div className='right'>
