@@ -36,7 +36,7 @@ const PROJECTS = [
 
         id: 3,
         name: 'Play Packet',
-        description: 'For the person who cannot stop claiming "new rule!" Play Packet is an application that allows users to store and share the house rules for the various board and card games they play',
+        description: 'For the person who cannot stop claiming "new rule!" Play Packet is an application that allows users to store and share the house rules for the various board and card games they play.',
         stack: 'React(with Hooks), Node/Express, Postgres/Knex',
         achieved: 'Reinforced React component breakdown, React-Responsive for in-component rendering with media queries, using JOIN tables in sql.',
         liveLink: 'https://playpacket.vercel.app/',
