@@ -6,7 +6,7 @@ export default function Skills(props) {
     return (
         <div className='Skills'>
             <h2>Skills Include:</h2>
-            <section className='container'>
+            <div className='container'>
                 <div className='left'>
                     <ul>
                         <li>Javasript</li>
@@ -25,7 +25,7 @@ export default function Skills(props) {
                         <li>Mocha/Chai/Supertest</li>
                     </ul>
                 </div>
-            </section>
+            </div>
             <div className='icons'>
                 <SkillIcons />
             </div>
