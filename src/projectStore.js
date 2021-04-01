@@ -15,7 +15,7 @@ const PROJECTS = [
     {
         id: 1,
         name: 'Right Routine',
-        description: 'A fitness application for the self guided fitness junkie: Right Routine is a full stack application allows users to enter in their own workouts separated by category and then have random workouts based on those categories',
+        description: 'A fitness application for the self guided workout junkie: Right Routine is a full stack application allows users to enter in their own workouts separated by category and then have random workouts based on those categories',
         stack: 'React(with Hooks), Node/Express, Postgres/Knex',
         achieved: 'First Full Stack application (PERN), Self Taught React Hooks, Created through Test Driven Development, User Authentication with JSON Web Tokens',
         liveLink: 'https://right-routine.vercel.app',
