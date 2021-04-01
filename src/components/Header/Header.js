@@ -9,10 +9,10 @@ export default function Header(props) {
             <h1>Ian Bruns</h1>
             <div className='header-contact'>
                 <a href='https://www.linkedin.com/in/ianabruns/' target="_blank" rel='noreferrer'>
-                    <img src={linkedin} alt='' height='30px' />
+                    <img src={linkedin} alt='' height='30' />
                 </a>
                 <a href='https://github.com/IanBruns' target="_blank" rel='noreferrer'>
-                    <img src={github} alt='' height='30px' />
+                    <img src={github} alt='' height='30' />
                 </a>
             </div>
         </React.Fragment>

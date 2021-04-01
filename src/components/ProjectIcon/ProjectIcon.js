@@ -13,6 +13,6 @@ export default function ProjectIcon(props) {
                 : icon = null;
 
     return (
-        <img className='projIcon' src={icon} alt='' height='25px' />
+        <img className='projIcon' src={icon} alt='' height='25' />
     )
 }

@@ -13,6 +13,6 @@ export default function ProjectScreenshot(props) {
                 : screenshot = null;
 
     return (
-        <img className='projImg' src={screenshot} alt='' height='400px' width='400px' />
+        <img className='projImg' src={screenshot} alt='' height='400' width='400' />
     )
 }

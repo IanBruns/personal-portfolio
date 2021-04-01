@@ -12,7 +12,7 @@ export default function Intro(props) {
             <div className='container'>
                 {onDesktop && (
                     <div>
-                        <img src={homePhoto} alt='I can look professional' height='450px' />
+                        <img src={homePhoto} alt='I can look professional' height='450' />
                     </div>
                 )}
                 <div className='right'>

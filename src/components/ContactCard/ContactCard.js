@@ -13,15 +13,15 @@ export default function ContactCard(props) {
                     <h4>Full Stack Developer</h4>
                 </div>
                 <div className='back'>
-                    <img src={email} alt='' height='30px' />
+                    <img src={email} alt='' height='30' />
                     <br />
                     <a href="mailto:ian@rbruns.com" target="_blank" rel='noreferrer'>ian@rbruns.com</a>
                     <br />
-                    <img src={linkedin} alt='' height='30px' />
+                    <img src={linkedin} alt='' height='30' />
                     <br />
                     <a href="https://www.linkedin.com/in/ianabruns/" target="_blank" rel='noreferrer'>linkedin.com/in/ianabruns/</a>
                     <br />
-                    <img src={github} alt='' height='30px' />
+                    <img src={github} alt='' height='30' />
                     <br />
                     <a href="https://github.com/IanBruns" target="_blank" rel='noreferrer'>github.com/IanBruns</a>
                 </div>

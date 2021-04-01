@@ -8,19 +8,19 @@ export default function StackIcon(props) {
     return (
         <React.Fragment>
             {props.str.toLowerCase().includes('react') && (
-                <img src={react} alt='' height='60px' />
+                <img src={react} alt='' height='60' />
             )}
             <br />
             {props.str.toLowerCase().includes('hooks') && (
-                <img src={hooks} alt='' height='60px' />
+                <img src={hooks} alt='' height='60' />
             )}
             <br />
             {props.str.toLowerCase().includes('node') && (
-                <img src={node} alt='' height='60px' />
+                <img src={node} alt='' height='60' />
             )}
             <br />
             {props.str.toLowerCase().includes('postgres') && (
-                <img src={postgresql} alt='' height='60px' />
+                <img src={postgresql} alt='' height='60' />
             )}
         </React.Fragment>
     )
