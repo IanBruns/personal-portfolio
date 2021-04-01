@@ -10,12 +10,15 @@ export default function StackIcon(props) {
             {props.str.toLowerCase().includes('react') && (
                 <img src={react} alt='' height='60px' />
             )}
+            <br />
             {props.str.toLowerCase().includes('hooks') && (
                 <img src={hooks} alt='' height='60px' />
             )}
+            <br />
             {props.str.toLowerCase().includes('node') && (
                 <img src={node} alt='' height='60px' />
             )}
+            <br />
             {props.str.toLowerCase().includes('postgres') && (
                 <img src={postgresql} alt='' height='60px' />
             )}
