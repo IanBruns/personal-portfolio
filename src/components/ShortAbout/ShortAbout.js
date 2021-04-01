@@ -11,7 +11,7 @@ export default function ShortAbout(props) {
                 a positive team culture.
             </p>
             <p>
-                If you want to work with someone who's passionate about learning and rearching
+                If you want to work with someone who's passionate about learning and researching
                 and creating clean, workable code, let's get in touch!
             </p>
         </React.Fragment>

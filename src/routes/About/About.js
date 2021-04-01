@@ -6,7 +6,7 @@ export default function About(props) {
             <h2>Here's a bit about me!</h2>
             <p>
                 Before becoming a developer, I worked in client-service industry jobs and found
-                myself wanting a little bit more.  In the 2020 quarentine, I bought myself an
+                myself wanting a little bit more.  In the 2020 quarantine, I bought myself an
                 intro to coding book (I still keep it by my nightstand for good luck), and found myself
                 absorbed in that material.  With that passion and some prior history in dev from high school
                 and college, I made the plunge into Thinkful's Engineering Immersion program.  I'm
