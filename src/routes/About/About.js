@@ -10,12 +10,12 @@ export default function About(props) {
                 intro to coding book (I still keep it by my nightstand for good luck), and found myself
                 absorbed in that material.  With that passion and some prior history in dev from high school
                 and college, I made the plunge into Thinkful's Engineering Immersion program.  I'm
-                glad I did as I now get to work in a field I'm deeply passionate about
+                glad I did as I now get to work in a field I'm deeply passionate about.
             </p>
             <hr />
             <p>
                 Now I'm excited to work with a team of passionate developers working on problem solving
-                and creating clean and well tested code
+                and creating clean and well tested code.
             </p>
             <hr />
             <p>
