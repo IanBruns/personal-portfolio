@@ -10,11 +10,11 @@ export default function Skills(props) {
                 <div className='left'>
                     <ul>
                         <li>Javasript</li>
+                        <li>TypeScript</li>
                         <li>React (with Hooks)</li>
                         <li>Node</li>
                         <li>PostreSQL</li>
                         <li>HTML/CSS</li>
-                        <li>git</li>
                     </ul>
                 </div>
                 <div className='right'>
@@ -23,6 +23,7 @@ export default function Skills(props) {
                         <li>REST APIs</li>
                         <li>Test Driven Development</li>
                         <li>Mocha/Chai/Supertest</li>
+                        <li>git</li>
                     </ul>
                 </div>
             </div>
