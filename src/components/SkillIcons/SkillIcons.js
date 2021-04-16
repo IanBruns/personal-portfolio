@@ -7,11 +7,13 @@ import javascript from '../../images/icons/skills/javascript.png';
 import node from '../../images/icons/skills/node.png';
 import postgresql from '../../images/icons/skills/postgresql.png';
 import react from '../../images/icons/skills/react.png';
+import typescript from '../../images/icons/skills/typescript.png';
 
 export default function SkillIcons(props) {
     return (
         <React.Fragment>
             <img src={javascript} alt='' height='60' />
+            <img src={typescript} alt='' height='60' />
             <img src={react} alt='' height='60' />
             <img src={hooks} alt='' height='60' />
             <img src={node} alt='' height='60' />
